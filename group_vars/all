@@ -1,0 +1,10 @@
+---
+vpc_id: vpc-2200a049
+subnet_id: subnet-2100a04a
+ec2_keypair: admin
+instance_count: 2
+db_subnets:
+    -   subnet-2100a04a
+    -   subnet-2000a04b
+db_availability_zone: us-west-2a
+db_username: todobackend
